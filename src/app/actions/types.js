@@ -1,0 +1,4 @@
+export const FETCH_LISTINGS = 'FETCH_LISTINGS';
+export const FETCH_REVIEWS = 'FETCH_REVIEWS';
+export const OPEN_LISTING = 'OPEN_LISTING';
+export const CLOSE_LISTING = 'CLOSE_LISTING';

@@ -1,0 +1,42 @@
+.listings {
+
+  .listing {
+    margin: 20px 0;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+
+    strong {
+      font-size: 20px;
+    }
+  }
+
+  .details {
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+  img {
+    height: 150px;
+  }
+
+  @media only screen
+  and (max-device-width: 767px) {
+    strong {
+      font-size: 18px;
+    }
+
+    .details {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+
+  @media only screen
+  and (max-device-width: 320px) {
+    strong {
+      font-size: 18px;
+    }
+  }
+
+}

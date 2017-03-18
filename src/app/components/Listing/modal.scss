@@ -1,0 +1,15 @@
+.modal {
+  margin: 20px 0;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+  overflow-y: auto;
+
+  strong {
+    font-size: 20px;
+  }
+
+  img {
+    height: 300px;
+  }
+}
